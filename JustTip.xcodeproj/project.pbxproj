@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4CCCAF4C21487C68005FD41A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCAF4B21487C68005FD41A /* AppDelegate.swift */; };
+		4CCCAF4E21487C68005FD41A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCAF4D21487C68005FD41A /* ViewController.swift */; };
+		4CCCAF5121487C68005FD41A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCAF4F21487C68005FD41A /* Main.storyboard */; };
+		4CCCAF5321487C6C005FD41A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCAF5221487C6C005FD41A /* Assets.xcassets */; };
+		4CCCAF5621487C6C005FD41A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CCCAF5421487C6C005FD41A /* LaunchScreen.storyboard */; };
+		4CCCAF6121487C6C005FD41A /* JustTipTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCAF6021487C6C005FD41A /* JustTipTests.swift */; };
+		4CCCAF6C21487C6C005FD41A /* JustTipUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CCCAF6B21487C6C005FD41A /* JustTipUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CCCAF5D21487C6C005FD41A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CCCAF4021487C68005FD41A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CCCAF4721487C68005FD41A;
+			remoteInfo = JustTip;
+		};
+		4CCCAF6821487C6C005FD41A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CCCAF4021487C68005FD41A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CCCAF4721487C68005FD41A;
+			remoteInfo = JustTip;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4CCCAF4821487C68005FD41A /* JustTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JustTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCCAF4B21487C68005FD41A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CCCAF4D21487C68005FD41A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4CCCAF5021487C68005FD41A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4CCCAF5221487C6C005FD41A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CCCAF5521487C6C005FD41A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CCCAF5721487C6C005FD41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCCAF5C21487C6C005FD41A /* JustTipTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustTipTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCCAF6021487C6C005FD41A /* JustTipTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustTipTests.swift; sourceTree = "<group>"; };
+		4CCCAF6221487C6C005FD41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CCCAF6721487C6C005FD41A /* JustTipUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JustTipUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CCCAF6B21487C6C005FD41A /* JustTipUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JustTipUITests.swift; sourceTree = "<group>"; };
+		4CCCAF6D21487C6C005FD41A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CCCAF4521487C68005FD41A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCCAF5921487C6C005FD41A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCCAF6421487C6C005FD41A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4CCCAF3F21487C68005FD41A = {
+			isa = PBXGroup;
+			children = (
+				4CCCAF4A21487C68005FD41A /* JustTip */,
+				4CCCAF5F21487C6C005FD41A /* JustTipTests */,
+				4CCCAF6A21487C6C005FD41A /* JustTipUITests */,
+				4CCCAF4921487C68005FD41A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CCCAF4921487C68005FD41A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CCCAF4821487C68005FD41A /* JustTip.app */,
+				4CCCAF5C21487C6C005FD41A /* JustTipTests.xctest */,
+				4CCCAF6721487C6C005FD41A /* JustTipUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CCCAF4A21487C68005FD41A /* JustTip */ = {
+			isa = PBXGroup;
+			children = (
+				4CCCAF4B21487C68005FD41A /* AppDelegate.swift */,
+				4CCCAF4D21487C68005FD41A /* ViewController.swift */,
+				4CCCAF4F21487C68005FD41A /* Main.storyboard */,
+				4CCCAF5221487C6C005FD41A /* Assets.xcassets */,
+				4CCCAF5421487C6C005FD41A /* LaunchScreen.storyboard */,
+				4CCCAF5721487C6C005FD41A /* Info.plist */,
+			);
+			path = JustTip;
+			sourceTree = "<group>";
+		};
+		4CCCAF5F21487C6C005FD41A /* JustTipTests */ = {
+			isa = PBXGroup;
+			children = (
+				4CCCAF6021487C6C005FD41A /* JustTipTests.swift */,
+				4CCCAF6221487C6C005FD41A /* Info.plist */,
+			);
+			path = JustTipTests;
+			sourceTree = "<group>";
+		};
+		4CCCAF6A21487C6C005FD41A /* JustTipUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CCCAF6B21487C6C005FD41A /* JustTipUITests.swift */,
+				4CCCAF6D21487C6C005FD41A /* Info.plist */,
+			);
+			path = JustTipUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CCCAF4721487C68005FD41A /* JustTip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCCAF7021487C6C005FD41A /* Build configuration list for PBXNativeTarget "JustTip" */;
+			buildPhases = (
+				4CCCAF4421487C68005FD41A /* Sources */,
+				4CCCAF4521487C68005FD41A /* Frameworks */,
+				4CCCAF4621487C68005FD41A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JustTip;
+			productName = JustTip;
+			productReference = 4CCCAF4821487C68005FD41A /* JustTip.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CCCAF5B21487C6C005FD41A /* JustTipTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCCAF7321487C6C005FD41A /* Build configuration list for PBXNativeTarget "JustTipTests" */;
+			buildPhases = (
+				4CCCAF5821487C6C005FD41A /* Sources */,
+				4CCCAF5921487C6C005FD41A /* Frameworks */,
+				4CCCAF5A21487C6C005FD41A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CCCAF5E21487C6C005FD41A /* PBXTargetDependency */,
+			);
+			name = JustTipTests;
+			productName = JustTipTests;
+			productReference = 4CCCAF5C21487C6C005FD41A /* JustTipTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CCCAF6621487C6C005FD41A /* JustTipUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CCCAF7621487C6C005FD41A /* Build configuration list for PBXNativeTarget "JustTipUITests" */;
+			buildPhases = (
+				4CCCAF6321487C6C005FD41A /* Sources */,
+				4CCCAF6421487C6C005FD41A /* Frameworks */,
+				4CCCAF6521487C6C005FD41A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CCCAF6921487C6C005FD41A /* PBXTargetDependency */,
+			);
+			name = JustTipUITests;
+			productName = JustTipUITests;
+			productReference = 4CCCAF6721487C6C005FD41A /* JustTipUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CCCAF4021487C68005FD41A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Mari;
+				TargetAttributes = {
+					4CCCAF4721487C68005FD41A = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					4CCCAF5B21487C6C005FD41A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4CCCAF4721487C68005FD41A;
+					};
+					4CCCAF6621487C6C005FD41A = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 4CCCAF4721487C68005FD41A;
+					};
+				};
+			};
+			buildConfigurationList = 4CCCAF4321487C68005FD41A /* Build configuration list for PBXProject "JustTip" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CCCAF3F21487C68005FD41A;
+			productRefGroup = 4CCCAF4921487C68005FD41A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CCCAF4721487C68005FD41A /* JustTip */,
+				4CCCAF5B21487C6C005FD41A /* JustTipTests */,
+				4CCCAF6621487C6C005FD41A /* JustTipUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CCCAF4621487C68005FD41A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCCAF5621487C6C005FD41A /* LaunchScreen.storyboard in Resources */,
+				4CCCAF5321487C6C005FD41A /* Assets.xcassets in Resources */,
+				4CCCAF5121487C68005FD41A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCCAF5A21487C6C005FD41A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCCAF6521487C6C005FD41A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CCCAF4421487C68005FD41A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCCAF4E21487C68005FD41A /* ViewController.swift in Sources */,
+				4CCCAF4C21487C68005FD41A /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCCAF5821487C6C005FD41A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCCAF6121487C6C005FD41A /* JustTipTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CCCAF6321487C6C005FD41A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CCCAF6C21487C6C005FD41A /* JustTipUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CCCAF5E21487C6C005FD41A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CCCAF4721487C68005FD41A /* JustTip */;
+			targetProxy = 4CCCAF5D21487C6C005FD41A /* PBXContainerItemProxy */;
+		};
+		4CCCAF6921487C6C005FD41A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CCCAF4721487C68005FD41A /* JustTip */;
+			targetProxy = 4CCCAF6821487C6C005FD41A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4CCCAF4F21487C68005FD41A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CCCAF5021487C68005FD41A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CCCAF5421487C6C005FD41A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CCCAF5521487C6C005FD41A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CCCAF6E21487C6C005FD41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CCCAF6F21487C6C005FD41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CCCAF7121487C6C005FD41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKV25TRBK8;
+				INFOPLIST_FILE = JustTip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mari.JustTip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4CCCAF7221487C6C005FD41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKV25TRBK8;
+				INFOPLIST_FILE = JustTip/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mari.JustTip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4CCCAF7421487C6C005FD41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKV25TRBK8;
+				INFOPLIST_FILE = JustTipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mari.JustTipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustTip.app/JustTip";
+			};
+			name = Debug;
+		};
+		4CCCAF7521487C6C005FD41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKV25TRBK8;
+				INFOPLIST_FILE = JustTipTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mari.JustTipTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JustTip.app/JustTip";
+			};
+			name = Release;
+		};
+		4CCCAF7721487C6C005FD41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKV25TRBK8;
+				INFOPLIST_FILE = JustTipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mari.JustTipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JustTip;
+			};
+			name = Debug;
+		};
+		4CCCAF7821487C6C005FD41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = WKV25TRBK8;
+				INFOPLIST_FILE = JustTipUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.mari.JustTipUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JustTip;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CCCAF4321487C68005FD41A /* Build configuration list for PBXProject "JustTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCCAF6E21487C6C005FD41A /* Debug */,
+				4CCCAF6F21487C6C005FD41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCCAF7021487C6C005FD41A /* Build configuration list for PBXNativeTarget "JustTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCCAF7121487C6C005FD41A /* Debug */,
+				4CCCAF7221487C6C005FD41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCCAF7321487C6C005FD41A /* Build configuration list for PBXNativeTarget "JustTipTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCCAF7421487C6C005FD41A /* Debug */,
+				4CCCAF7521487C6C005FD41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CCCAF7621487C6C005FD41A /* Build configuration list for PBXNativeTarget "JustTipUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CCCAF7721487C6C005FD41A /* Debug */,
+				4CCCAF7821487C6C005FD41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CCCAF4021487C68005FD41A /* Project object */;
+}
